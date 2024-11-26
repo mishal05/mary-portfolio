@@ -3,20 +3,18 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Trigger deployment when changes are pushed to the 'main' branch
+      - main  # Deploy when you push to the main branch
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # Check out the repository
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # Setup GitHub Pages deployment
-      - name: Setup GitHub Pages
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: './' # Specify the directory to publish and adjust if needed (e.g., './dist')
+          publish_dir: ./src  # Change this to the folder containing index.html
