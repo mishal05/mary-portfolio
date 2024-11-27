@@ -52,7 +52,7 @@ const Skills = () => {
       animate={{ opacity: 1 }}
       className="max-w-6xl mx-auto py-12"
     >
-      <h1 className="text-4xl font-bold text-gray-900 mb-8">Skills</h1>
+      <h1 className="text-4xl font-bold text-gray-900 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">Skills</h1>
 
       <div className="grid md:grid-cols-2 gap-8">
         {skillCategories.map((category, index) => (

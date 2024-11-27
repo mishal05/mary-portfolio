@@ -9,8 +9,9 @@ const Contact = () => {
       animate={{ opacity: 1 }}
       className="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8"
     >
-      <h1 className="text-4xl font-bold text-center text-gray-900 mb-8">Contact</h1>
-
+      <div className="text-center mb-12">
+      <h1 className="text-5xl font-extrabold text-gray-900 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">Contact</h1>
+      </div>
       <div className="grid md:grid-cols-2 gap-8">
         {/* Left column for contact info */}
         <div className="space-y-8 bg-white p-8 rounded-lg shadow-xl border border-gray-200">

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Download, Github, Linkedin, Mail } from 'lucide-react';
+import { Menu, X, Github, Linkedin, Mail } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,14 +43,7 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
-            <a
-              href="/resume.pdf"
-              download
-              className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-            >
-              <Download className="h-4 w-4 mr-2" />
-              Resume
-            </a>
+            
             <div className="flex items-center space-x-4">
               <a
                 href="https://github.com/mishal05"
@@ -111,14 +104,7 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
-            <a
-              href="/resume.pdf"
-              download
-              className="flex items-center px-3 py-2 text-base font-medium text-indigo-600 hover:bg-indigo-50 rounded-md"
-            >
-              <Download className="h-4 w-4 mr-2" />
-              Resume
-            </a>
+            
           </div>
         </div>
       )}

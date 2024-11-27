@@ -182,7 +182,7 @@ const Game = () => {
         animate={{ opacity: 1, y: 0 }}
         className="text-center mb-8"
       >
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">Tic Tac Toe vs AI</h1>
+        <h1 className="text-4xl font-bold text-gray-900 mb-4text-4xl font-bold text-gray-900 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">Tic Tac Toe vs AI</h1>
         <p className="text-gray-600 mb-4">You are X, Computer is O</p>
         
         <div className="mb-4">

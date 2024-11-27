@@ -11,7 +11,7 @@ const Projects = () => {
       title: 'Sign-ify Road Sign Detection System',
       description: 'An innovative road sign detection system utilizing YOLO technology implemented on Raspberry Pi. The system provides real-time detection and classification of traffic signs.',
       technologies: ['Python', 'YOLO', 'Raspberry Pi', 'OpenCV'],
-      image: '/images/Signify.jpg',
+      image: 'https://media.istockphoto.com/id/1199424411/photo/indian-road-sign-indicating-pedestrian-crossing-ahead-sign-indicating-zebra-crossing-ahead.jpg?s=170667a&w=0&k=20&c=a6XKHNoWtQCFQZS8zzheYVuJrOoNrm1aUz2c_MC0wck=',
       github: 'https://github.com/mishal05/',
       demo: 'https://drive.google.com/file/d/1MD0NFNQItR-NMTk3CYkSoGaT7UlL-YBV/view?usp=sharing'
     },
@@ -38,7 +38,7 @@ const Projects = () => {
       className="max-w-6xl mx-auto py-12"
     >
       <div className="flex justify-between items-center mb-8">
-        <h1 className="text-4xl font-bold text-gray-900">Projects</h1>
+        <h1 className="text-4xl font-bold text-gray-900 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">Projects</h1>
         {isAdmin && (
           <button className="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700">
             Add Project

@@ -51,7 +51,7 @@ const Certifications = () => {
       className="max-w-6xl mx-auto py-12"
     >
       <div className="flex justify-between items-center mb-8">
-        <h1 className="text-4xl font-bold text-gray-900">Certifications</h1>
+        <h1 className="text-4xl font-bold text-gray-900 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">Certifications</h1>
         {isAdmin && (
           <button className="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700">
             Add Certification
